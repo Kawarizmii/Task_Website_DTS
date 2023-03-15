@@ -115,6 +115,8 @@ p{
   
 .submit:active {
     background-color: #E50914;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 .konten1, .konten2, .konten3, .konten4 {
@@ -172,13 +174,12 @@ footer a:hover{
     color: whi
 }
 
-.konten-footer{
+.konten-footer, .konten-footer1{
     width: 30%;
 }
 
 footer img{
     width: 100%;
-
 }
 
 a:hover{
