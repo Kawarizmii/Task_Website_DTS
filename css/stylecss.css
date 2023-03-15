@@ -62,14 +62,14 @@ p{
 }
 
 
-.Konten1{
-    background-image: url(/Task_Website_DTS/scr/backgroun.jpg);
+.jumbroton{
+    background-image: url(../scr/backgroun.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 15px 15px;
-    height: 500px;
+    padding: 8rem 15px;
+    height: 600px;
     text-align: center;
-    border-bottom: solid 10px #303245;
+    border-bottom: 10px solid  #303245;
 }
   
   
@@ -117,65 +117,70 @@ p{
     background-color: #E50914;
 }
 
-
-.Konten2{
+.konten1, .konten2, .konten3, .konten4 {
     height: 500px;
     text-align: left;
     border-bottom: solid 10px #303245;
     display: inline-flex;
     align-items: center;
     padding: 15px 35px;
+    width: 100%;
 }
 
-.Konten3{
-    height: 500px;
+.konten2{
+    flex-direction: row-reverse;
     text-align: right;
-    border-bottom: solid 10px #303245;
-    display: inline-flex;
-    align-items: center;
-    padding: 15px 35px;
 }
 
-.Konten4{
-    height: 500px;
-    text-align: left;
-    border-bottom: solid 10px #303245;
-    display: inline-flex;
-    align-items: center;
-    padding: 15px 35px;
-}
-
-.Konten5{
-    height: 500px;
+.konten4{
+    flex-direction: row-reverse;
     text-align: right;
-    border-bottom: solid 10px #303245;
-    display: inline-flex;
-    align-items: center;
-    padding: 15px 35px;
 }
 
 .gambarKonten img{
     height: 350px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 footer{
+    background-color: rgb(2, 24, 80);
+}
+
+footer h1, footer p{
     text-align: center;
+    margin: 20px 0;
+   
 }
 
 .container-footer{
-    text-align: center;
-    margin-bottom: 30px;
-    align-items: center;
+    padding: 30px 30px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+     /* width: 60%; */
+     margin: 0 auto;
+     align-items: center;
 }
 
-.footerRight{
-    text-align: left;
+footer a{
+    text-decoration: none;
+    color: wheat;
+    display: block;
+    margin: 8px 0;
 }
 
-.footerLeft{
-    text-align: right;
+footer a:hover{
+    color: whi
+}
+
+.konten-footer{
+    width: 30%;
+}
+
+footer img{
+    width: 100%;
+
+}
+
+a:hover{
+    color: #E50914;
 }
