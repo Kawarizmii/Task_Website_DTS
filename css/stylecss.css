@@ -1,187 +1,93 @@
-* {
-    box-sizing: border-box;
-  }
+/* Untuk Tablet */
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 34px;
+    }
 
-body {
-  margin: 0;
-  font-family: sans-serif;
-  background-color: black;
-}
+    p{
+        font-size: 18px;
+    }
 
-h1{
-    font-size: 48px;   
-    color: rgb(254, 254, 255);
-}
+    .gambarKonten img{
+        height: 250px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
-p{
-    font-size: 24px;
-    color: rgb(255, 255, 255)
-}
+    .container {
+        width: 100%;
+        height: 90px;
+    }
 
-.container {
-    width: 100%;
-    height: 90px;
-    padding: 15px 15px;
-    background-color: black;
-}
+    .jumbroton{
+        padding-top: 90px;
+        height: 500px;
+    }
 
-.header-left img{
-    width: 130px;
-    float: left;
-}
+    .konten1, .konten2, .konten3, .konten4{
+        height: 350px;
+    }
 
-.header-right{
-    float: right;
-    display: inline-flex;
-    align-items: center;
-}
-
-.item1 p{
-    font-size: 18px;
-}
-
-.item1{
-    margin-right: 15px;
-}
-
-.btn {
-    padding: 12px 24px;
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
-    text-align: center;
-}
-
-.btn:hover {
-    opacity: 1;
-}
-
-.signup {
-    background-color: #E50914;
-}
-
-
-.jumbroton{
-    background-image: url(../scr/backgroun.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 8rem 15px;
-    height: 600px;
-    text-align: center;
-    border-bottom: 10px solid  #303245;
 }
   
-  
-.subtitle {
-    color: #eee;
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    margin-top: 10px;
-}
-  
-.input-container {
-    height: 50px;
-    position: relative;
-    width: 100%;
-}
-  
-.input {
-    background-color: #303245;
-    border-radius: 12px;
-    border: 0;
-    box-sizing: border-box;
-    color: #eee;
-    font-size: 18px;
-    height: 100%;
-    outline: 0;
-    padding: 4px 20px 0;
-}
-  
-.submit {
-    background-color:  #E50914;
-    border-radius: 12px;
-    border: 0;
-    box-sizing: border-box;
-    color: #eee;
-    cursor: pointer;
-    font-size: 18px;
-    height: 50px;
-    margin-top: 38px;
-    outline: 0;
-    text-align: center;
-}
-  
-.submit:active {
-    background-color: #E50914;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-}
+  /* Untuk Smartphone */
+@media (max-width: 670px) {
+    .gambarKonten img{
+        height: 250px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .jumbroton{
+        padding-top: 35px;
+        height: 450px;
+    }
 
-.konten1, .konten2, .konten3, .konten4 {
-    height: 500px;
-    text-align: left;
-    border-bottom: solid 10px #303245;
-    display: inline-flex;
-    align-items: center;
-    padding: 15px 35px;
-    width: 100%;
-}
+    .input {
+        font-size: 14px;
+    }
 
-.konten2{
-    flex-direction: row-reverse;
-    text-align: right;
-}
+    .submit {
+        font-size: 14px;
+        height: 40px;
+        outline: 0;
+        text-align: center;
+    }
 
-.konten4{
-    flex-direction: row-reverse;
-    text-align: right;
-}
+    .input-container {
+        height: 40px;
+        position: relative;
+        width: 100%;
+    }
+      
 
-.gambarKonten img{
-    height: 350px;
-}
+    .konten1, .konten2, .konten3, .konten4{
+        text-align: center;
+        height: 500px;
+        display: block;
+    }
 
-footer{
-    background-color: rgb(2, 24, 80);
-}
+    footer{
+        height: 170px;
+    }
 
-footer h1, footer p{
-    text-align: center;
-    margin: 20px 0;
-   
-}
+    a{
+        font-size: 14px;
+    }
 
-.container-footer{
-    padding: 30px 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-     /* width: 60%; */
-     margin: 0 auto;
-     align-items: center;
-}
+    .konten-footer1{
+        visibility: hidden;
+        width: 0%;
+    }
 
-footer a{
-    text-decoration: none;
-    color: wheat;
-    display: block;
-    margin: 8px 0;
-}
+    .konten-footer{
+        width: 50%;
+    }
 
-footer a:hover{
-    color: whi
-}
-
-.konten-footer, .konten-footer1{
-    width: 30%;
-}
-
-footer img{
-    width: 100%;
-}
-
-a:hover{
-    color: #E50914;
+    .container-footer{
+        padding-left: 30px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
 }
